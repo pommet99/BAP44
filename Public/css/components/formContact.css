@@ -1,0 +1,62 @@
+#formContact
+{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+}
+
+#formContact section
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#formContact section label {
+    width: 20%;
+}
+
+#formContact section div 
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#formContact section div input, #formContact section div select
+{
+    padding: 8px 12px;
+}
+
+.identiteContact input {
+    width: 50%;
+}
+
+.infosContact {
+    margin-top: 15px;
+}
+
+.infosContact input,.infosContact select {
+    width: 100%;
+}
+
+.demandeContact {
+    padding-top: 15px;
+}
+
+.demandeContact textarea 
+{
+    width: calc(100% - 12px);
+    padding: 6px;
+    resize: none;
+    border: none;
+}
+
+#formContact input[type=submit]
+{
+    padding: 8px 12px;
+    display: block;
+    margin: 15px auto 0px;
+    width: 50%;
+    background-color: white;
+}

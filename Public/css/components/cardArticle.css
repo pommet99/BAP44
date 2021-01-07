@@ -1,0 +1,82 @@
+.recentArticle 
+{
+    width: 90%;
+    margin: 30px auto;
+    height: 400px;
+    background-color: white;
+    position: relative;
+}
+
+.imgRecentArticle 
+{
+    height: 60%;
+    width: 90%;
+    margin: auto;
+    background-image: url("../../images/imgArticles/default.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recentArticle h2 
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.descriptionRecentArticle
+{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.recentArticle a 
+{
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    padding: 8px 12px;
+}
+
+.article 
+{
+    width: 30%;
+    background-color: white;
+    height: 100%;
+    position: relative;
+}
+
+.article h2 
+{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+.imgCardArticle
+{
+    height: 40%;
+    width: 80%;
+    margin: auto;
+    background-image: url("../../images/imgArticles/default.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.descriptionCardArticle
+{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.article a 
+{
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    padding: 8px 12px;
+}

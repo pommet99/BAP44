@@ -1,0 +1,24 @@
+.question 
+{
+    width: 60%;
+    margin: 30px auto;
+}
+
+.question h2 
+{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.question div {
+    background-color: burlywood;
+    padding: 8px;
+}
+
+.reponseQuestion
+{
+    display: none;
+}

@@ -1,0 +1,46 @@
+.dashArticleForm,.dashQuestionForm
+{
+    width: 70%;
+    margin: auto;
+}
+
+.dashArticleForm section, .dashQuestionForm section  
+{
+    margin: auto;
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashArticleForm section input, .dashQuestionForm section input
+{
+    padding: 8px 12px;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.dashArticleForm section textarea
+{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin: 10px 0px 20px;
+    height: 100px;
+}
+
+.dashQuestionForm input 
+{
+    width: 100%;
+}
+
+.dashQuestionForm textarea
+{
+    width: 100%;
+}
+
+.dashArticleForm input[type="submit"], .dashQuestionForm input[type="submit"]
+{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 8px 12px;
+}

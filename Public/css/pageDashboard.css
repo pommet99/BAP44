@@ -1,0 +1,16 @@
+.main-dashboard
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-dashboard
+{
+    width: 70%;
+}
+
+.page-dashboard h1 
+{
+    text-align: center;
+    margin: 20px 0px 10px;
+}

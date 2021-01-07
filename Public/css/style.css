@@ -1,0 +1,14 @@
+@import 'reset.css';
+@import 'pageConnexion.css';
+@import 'components/header.css';
+@import 'components/footer.css';
+@import 'pageAccueil.css';
+@import 'components/cardArticle.css';
+@import 'pageContact.css';
+@import 'components/formContact.css';
+@import 'pageFaq.css';
+@import 'components/questionFaq.css';
+@import 'pageDashboard.css';
+@import 'components/menuDashboard.css';
+@import 'components/dashFormsPage.css';
+@import 'components/tableau.css';

@@ -1,0 +1,27 @@
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(31, 169, 31);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    background-color: burlywood;
+}
+
+header nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    padding-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 24px;
+}

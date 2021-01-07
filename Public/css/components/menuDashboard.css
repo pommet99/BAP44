@@ -1,0 +1,22 @@
+.dashboard
+{
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(230, 211, 211);
+}
+
+.dashboard article
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dashboard article a 
+{
+    color: rgb(91, 113, 223);
+}
+
+.dashboard article a:hover
+{
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,80 @@
+.mainLandingPage {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.connexionForm {
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(0, 85, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connexionForm article {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.connexionForm article h1 {
+    font-size: 24px;
+}
+
+.connexionForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.connexionForm form input {
+    padding: 8px 12px;
+    margin-top: 20px;
+}
+.landingImg {
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../images/school.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainLandingPage button {
+    position: absolute;
+    left: -10%;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.modalHelp {
+    background-color: rgba(0, 0, 0, 0.442);
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modalHelp div 
+{
+    height: 80%;
+    width: 60%;
+    background-color: white;
+    position: relative;
+}
+
+.modalHelp span {
+    cursor: pointer;
+    font-size: 36px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
